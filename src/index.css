@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Microsoft JhengHei';
+}
+
+@layer utilities {
+  .mobile {
+    @apply portrait:block landscape:hidden;
+  }
+  .pc {
+    @apply portrait:hidden landscape:block;
+  }
+
+  .bg-m {
+    background-image: url("./assets/m.png");
+  }
+  .bg-pc {
+    background-image: url("./assets/pc.png");
+  }
+}
