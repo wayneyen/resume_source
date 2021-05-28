@@ -1,5 +1,5 @@
 <template>
-
+  <a id="contact"></a>
   <div id="user-contact">
     <!-- 手機首頁 -->
     <div class="mobile bg-cover bg-m w-screen h-screen p-10 text-white">

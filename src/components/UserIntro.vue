@@ -1,4 +1,5 @@
 <template>
+  <a id="intro"></a>
   <div id="user-intro" class="max-w-screen min-h-screen portrait:p-6 landscape:pt-36 landscape:pl-72 landscape:pr-12 text-white font-normal">
     <div class="portrait:text-3xl landscape:text-6xl text-shadow-xl pb-8">個人介紹</div>
 

@@ -1,4 +1,5 @@
 <template>
+  <a id="case"></a>
   <div id="user-case" class="max-w-screen min-h-screen portrait:p-6 landscape:pt-36 landscape:pl-72 landscape:pr-12 text-white font-normal leading-8">
     <div class="portrait:text-3xl landscape:text-6xl text-shadow-xl pb-8">作品展示</div>
 

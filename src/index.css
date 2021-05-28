@@ -6,6 +6,10 @@
   font-family: 'Microsoft JhengHei';
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer utilities {
   .mobile {
     @apply portrait:block landscape:hidden;

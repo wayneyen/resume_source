@@ -8,19 +8,19 @@
 
     <div :class="[state.menuIsOpen ? '': 'transform translate-x-full' ]" class="z-50 fixed top-0 right-0 w-5/12 h-screen bg-elephant-500 bg-opacity-60 transition duration-300 pt-24 text-center overflow-hidden">
       <div class="relative w-full h-full">
-        <a class="block text-white text-base py-4" @click="scrollTo('#user-contact')">
+        <a href="#contact" class="block text-white text-base py-4">
           聯絡方式
         </a>
-        <a class="block text-white text-base py-4" @click="scrollTo('#user-intro')">
+        <a href="#intro" class="block text-white text-base py-4">
           個人介紹
         </a>
-        <a class="block text-white text-base py-4" @click="scrollTo('#user-skill')">
+        <a href="#skill" class="block text-white text-base py-4">
           技能專長
         </a>
-        <a class="block text-white text-base py-4" @click="scrollTo('#user-experience')">
+        <a href="#experience" class="block text-white text-base py-4">
           企業經歷
         </a>
-        <a class="block text-white text-base py-4" @click="scrollTo('#user-case')">
+        <a href="#case" class="block text-white text-base py-4">
           作品展示
         </a>
         <a class="text-white absolute left-0 right-0 bottom-8" @click="state.menuIsOpen = !state.menuIsOpen">
@@ -32,7 +32,7 @@
 
   <div class="pc relative">
     <div class="fixed left-0 top-0 w-60 h-screen bg-elephant-500 bg-opacity-60">
-      <a class="block mt-10 text-white text-center cursor-pointer" @click="scrollTo('#user-contact')">
+      <a href="#contact" class="block mt-10 text-white text-center cursor-pointer">
         <i class="fas fa-home text-3xl"></i>
       </a>
 
@@ -47,26 +47,20 @@
     </div>
 
     <div class="fixed top-0 right-0 flex text-base pt-7">
-      <a class="text-gray-600 mr-14 cursor-pointer" @click="scrollTo('#user-intro')">個人介紹</a>
-      <a class="text-gray-600 mr-14 cursor-pointer" @click="scrollTo('#user-skill')">技能專長</a>
-      <a class="text-gray-600 mr-14 cursor-pointer" @click="scrollTo('#user-experience')">企業經歷</a>
-      <a class="text-gray-600 mr-14 cursor-pointer" @click="scrollTo('#user-case')">作品展示</a>
+      <a href="#intro" class="text-gray-600 mr-14 cursor-pointer">個人介紹</a>
+      <a href="#skill" class="text-gray-600 mr-14 cursor-pointer">技能專長</a>
+      <a href="#experience" class="text-gray-600 mr-14 cursor-pointer">企業經歷</a>
+      <a href="#case" class="text-gray-600 mr-14 cursor-pointer">作品展示</a>
     </div>
   </div>
 </template>
 
 <script setup>
-import VueScrollTo from 'vue-scrollto'
 import { reactive } from 'vue'
 
 const state = reactive({
   menuIsOpen: false
 })
-
-function scrollTo(element) {
-  state.menuIsOpen = false
-  VueScrollTo.scrollTo(element)
-}
 </script>
 
 <style scoped>
