@@ -1,12 +1,12 @@
 <template>
   <div class="mobile">
-    <div class="fixed top-5 right-5 text-white"
+    <div class="z-50 fixed top-5 right-5 text-white"
       v-show="!state.menuIsOpen"
       @click="state.menuIsOpen = !state.menuIsOpen">
       <i class="fas fa-bars text-4xl"></i>
     </div>
 
-    <div :class="[state.menuIsOpen ? '': 'transform translate-x-full' ]" class="fixed top-0 right-0 w-5/12 h-screen bg-elephant-500 bg-opacity-60 transition duration-300 pt-24 text-center overflow-hidden">
+    <div :class="[state.menuIsOpen ? '': 'transform translate-x-full' ]" class="z-50 fixed top-0 right-0 w-5/12 h-screen bg-elephant-500 bg-opacity-60 transition duration-300 pt-24 text-center overflow-hidden">
       <div class="relative w-full h-full">
         <a class="block text-white text-base py-4" @click="scrollTo('#user-contact')">
           聯絡方式
