@@ -20,7 +20,7 @@
         </a>
         <div class="mt-1">
           <i class="fas fa-envelope mr-1 fa-fw"></i>
-          <a href="mailto:wayne@4family.co">wayne@4family.co</a>
+          <a href="mailto:wayway1974@gmail.com">wayway1974@gmail.com</a>
         </div>
         <div class="mt-1">
           <i class="fas fa-mobile-alt mr-1 fa-fw"></i>
@@ -50,7 +50,7 @@
       <div class="absolute left-72 bottom-8 font-thin text-base text-white">
         <div class="inline-block">
           <i class="fas fa-envelope mr-1 fa-fw"></i>
-          <a href="mailto:wayne@4family.co">wayne@4family.co</a>
+          <a href="mailto:wayway1974@gmail.com">wayway1974@gmail.com</a>
         </div>
         <div class="inline-block ml-2">
           <i class="fas fa-mobile-alt mr-1 fa-fw"></i>
